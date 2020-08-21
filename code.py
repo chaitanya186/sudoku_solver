@@ -13,7 +13,7 @@ board = [
 
 def solve(bo):
     find = find_empty(bo)
-    if not find:
+    if not find: # if not command is used to execute a condition when the condition evaluation is false.
         return True
     else:
         row, col = find
